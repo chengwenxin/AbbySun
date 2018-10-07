@@ -1,0 +1,32 @@
+/* 导航栏头部 */
+.nav-header-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* 导航栏下方内容 */
+.content{
+    width:100%;
+    margin-top: 45px;
+}
+
+/* 底部 */
+.footer-fixed{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 聊天输入框 */
+.textarea-item{
+    width: 60%;
+    border: solid 1px blueviolet;
+    border-radius: 20px;
+}
+/* 本人聊天消息靠右显示 */
+.chat-me .am-list-content{
+    text-align: right !important;
+    padding-right: 20px;
+    flex-basis: auto;
+}
